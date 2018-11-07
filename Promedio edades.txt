@@ -1,0 +1,12 @@
+1. Inicio
+2. edades(10), i[0-n]
+3. suma, i[0-n]
+4. promedio, d[0-n]
+5. edades<---[10,18,19,11,20,21,16,15,11,12]
+6. suma<---0
+7.#edadesvalidas<--- >=16
+8 Mientras >= 16 entonces
+9. suma<--- suma+ edades
+10. Fin mientras
+11. promedio<--- suma/#edadesvalidas
+12.<<promedio

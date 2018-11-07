@@ -1,0 +1,32 @@
+1. Inicio
+2. promedioscolegiobolivar 
+3. promedioscolegiosur 
+4. sumapromedios, d[0-n]
+5. promediototal, d[0-n]
+6. promediocolegiobolivar<--- [15, 16.5, 17, 19, 20, 19, 10, 16.4, 15.1, 10]
+7. promediocolegiosur<--- [14, 11.5, 17.2, 18, 19, 17, 20, 19, 19.1, 8]
+8. sumapromediocolegibolivar<---0
+9. promediototalcolegiobolivar<---- sumapromediocolegibolivar/>=16.5
+10. Hacer sumapromedioscolegiobolivar 
+11. Mientras los promediocolegiobolivar >=16.5
+12. sumapromedios<--- sumapromedioscolegiobolivar+ promediocolegiobolivar
+13. << sumapromediocolegibolivar
+14. Fin mientras
+15. promediototalcolegiobolivar <-- sumapromediocolegibolivar/>=16.5
+
+16. Hacer sumapromedioscolegiosur
+17. Mientras los promediocolegiosur >=16.5
+18. sumapromedios<--- sumapromediossur+ promediocolegiosur
+19. << sumapromediocolegiosur
+20. Fin mientras
+21. promediototalcolegiosur <-- sumapromediocolegiosur/>=16.5
+22. Si promediototalcolegiosur > promediototalcolegiobolivar 
+22. <<promediocolegiosur es mejor
+23. FinSi
+24. Otro caso
+25. <<promediocolegiobolivar es mejor
+26. Fin
+24
+
+
+
